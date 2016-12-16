@@ -2,6 +2,7 @@ from sklearn.preprocessing import LabelEncoder
 import pandas as pd
 
 
+# One hot encoding using label encoder
 def onehotencoding(data,catFeaturesList_,le,maxCatValues):
 
     cats = []
