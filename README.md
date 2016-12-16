@@ -11,5 +11,6 @@
 5. XGboost with proper tuning performed very good on the public leaderboard
 6. Kera's NN did not perform well but it performed very well with proper number of bags(5). i.e bagging was required because NN was giving results with high variance.
 
-** Final Model: **
+**Final Model:**  
+
 Weighted average of 3 XGB models + 1 Keras NN
